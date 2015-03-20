@@ -15,4 +15,9 @@
 
   <licence>GNU/GPL</licence>
 
+  <necessite nom="compositions" />
+
+  <pipeline nom="declarer_tables_interfaces"  inclure="base/compositions_options.php" />
+  <pipeline nom="declarer_tables_principales" inclure="base/compositions_options.php" />
+
 </paquet>
